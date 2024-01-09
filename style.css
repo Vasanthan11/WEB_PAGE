@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(126, 24, 78);
+    overflow-y: scroll;
+}
+
+.container {
+    background-color: white;
+    outline: 8px rgb(130, 33, 85) solid;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+
+.header_main {
+    display: flex;
+    padding: 10px;
+
+}
+
+.date {
+    margin-left: auto;
+    float: right;
+}
+
+.logo {
+    height: 50px;
+    width: 150px;
+    float: left;
+}
+
+.header_announcement {
+    color: white;
+    font-size: 10px;
+    width: 100%;
+    background-color: rgb(130, 33, 85);
+    margin: auto;
+    padding: 10px;
+}
+
+.banner_img {
+    height: 25%;
+    width: 100%;
+}
+
+.hr {
+    width: 94%;
+    margin: auto;
+}
+
+.hr-1 {
+    width: 94%;
+    margin: auto;
+}
+
+.hr-1 .container-2 {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.economyclass-container {
+    display: grid;
+    /* align-items: center; */
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+
+}
+
+
+.studentoffer_cont.box {
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.studentoffer_cont {
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+}
+
+.Studentoffer-title {
+    color: rgb(126, 24, 78);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer-webdomain {
+    font-weight: bold;
+}
+
+.special-flight_cont {
+    padding: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#offers {
+    display: inline-block;
+}
+
+.sub-cont {
+    background-color: rgb(126, 24, 78);
+    height: 30px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#view-offer {
+    float: right;
+}
+
+.price {
+    font-size: 25px;
+}
+
+.flight_to{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+a,.flight_to ,#view-offer, 
+.terms, #book ,#read-more, .fa-solid, .website{
+    color: rgb(154, 32, 97);
+}
+
+.terms {
+    margin-left: 18px;
+}
+
+#student_offer {
+    height: 35px;
+    width: 95%;
+    margin: auto;
+    padding: 2px;
+    font-weight: bolder;
+    background-color: rgb(142, 137, 137);
+}
+
+.offer-header {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    padding: 8px;
+    width: 100%;
+}
+
+#left_space {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.fa-solid {
+    font-size: 13px;
+    margin: auto;
+}
+
+.container_content-subscriber {
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.web_url {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(126, 24, 78);
+}
+
+.website {
+    padding: 16px;
+}
+
+footer {
+    background-color: rgb(126, 24, 78);
+    color: white;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.hr_white {
+    color: white;
+    margin-top: 15px;
+}
+
+.footer-nav {
+    font-size: 14px;
+}
+
+.footer-sub {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 575.98px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .offer-header {
+        font-size: 15px;
+        margin-left: 2px;
+        margin-top: 6px;
+    }
+
+    .website {
+        padding: 10px;
+    }
+
+    .hr-hide {
+        display: none;
+    }
+
+    .flight_to {
+        font-size: 18px;
+    }
+
+    .web_url {
+        font-size: 14px;
+    }
+
+    #offers {
+        font-size: 15px;
+    }
+
+    #view-offer {
+        font-size: 11px;
+    }
+
+    .date {
+        font-size: 13px;
+        padding: 15px;
+    }
+
+    .logo {
+        height: 40px;
+        width: 100px;
+    }
+
+    a {
+        font-size: 11px;
+    }
+
+    #left_space {
+        font-size: 10px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .footer-nav {
+        font-size: 12px;
+    }
+
+    .footer-sub {
+        font-size: 11px;
+        margin-top: 3px;
+
+    }
+
+    .header_announcement {
+        font-size: 8px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        width: 70%;
+    }
+
+    .offer-header {
+        font-size: 15px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .price {
+        font-size: 22px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    #view-offer {
+        font-size: 13px;
+    }
+
+    .hr-hide {
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 50%
+    }
+}
